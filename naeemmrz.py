@@ -12,7 +12,7 @@ resume_file = current_dir / "assets" / "CV.pdf"
 profile_pic = current_dir / "assets" / "profile-pic.png"
 
 # --- GENERAL SETTINGS ---
-PAGE_TITLE = "CV | Naeem A"
+PAGE_TITLE = "Curriculum Vitae | Naeem A"
 PAGE_ICON = ":lab_coat:"
 NAME = "Naeem A."
 DESCRIPTION = """
@@ -83,10 +83,10 @@ selected = option_menu(menu_title=None,
 			default_index=1,
 			orientation="horizontal",
 			styles={
-			"container": {"height": "70px", "padding": "2px!important", "background-color": "#002b36"}, # Menu BG color
-			"icon": {"font-size": "17px"}, 
-			"nav-link": {"margin-top": "6px!important", "font-size": "17px", "text-align": "center", "margin":"1px", "--hover-color": "#d33682"}, # Hover-over Menu color
-            "nav-link-selected": {"background-color": "#d33682"} # Selected Menu color
+			"container": {"height": "70px", "font-size": "18px", "padding": "2px!important", "background-color": "#002b36"}, # Menu BG color
+			"icon": {"font-size": "18px"}, 
+			"nav-link": {"margin-top": "6px!important", "font-size": "20px", "text-align": "center", "margin":"2px", "--hover-color": "#B64003"}, # Hover-over Menu color
+            "nav-link-selected": {"background-color": "#B64003"} # Selected Menu color
             })
 
 
