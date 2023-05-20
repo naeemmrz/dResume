@@ -18,7 +18,7 @@ NAME = "Naeem A."
 DESCRIPTION = """
 Molecular Biologist, currently doing an international Master in Vaccinology.
 """
-EMAIL = "merzanaeem007@gemail.com"
+EMAIL = "mailto:merzanaeem007@gemail.com"
 SOCIAL_MEDIA = {
     "LinkedIn": "https://www.linkedin.com/in/naeemmrz/",
     "GitHub": "https://github.com/naeemmrz/",
@@ -49,8 +49,8 @@ with col2:
         file_name=resume_file.name,
         mime="application/octet-stream",
     )
-    st.write("📫", EMAIL)
-
+    st.write(f"[![email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)]({EMAIL})", "--", f"[![Repo](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]({SOCIAL_MEDIA['LinkedIn']})", "--", f"[![Repo](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)]({SOCIAL_MEDIA['GitHub']})")
+    st.write(EMAIL)
 
 st.write('\n')
 # --- SOCIAL LINKS ---
@@ -63,7 +63,7 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
 st.write('\n')
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write('\n')
-st.subheader("Experience & Qulifications")
+st.subheader("Experience & Qualifications")
 st.write(
     """
 - :white_check_mark: 2+ Years of hands-on experience in mammalian cell culture
@@ -84,8 +84,8 @@ selected = option_menu(menu_title=None,
 			orientation="horizontal",
 			styles={
 			"container": {"height": "70px", "padding": "2px!important", "background-color": "#002b36"}, # Menu BG color
-			"icon": {"font-size": "15px"}, 
-			"nav-link": {"margin-top": "6px!important", "font-size": "18px", "text-align": "center", "margin":"1px", "--hover-color": "#d33682"}, # Hover-over Menu color
+			"icon": {"font-size": "17px"}, 
+			"nav-link": {"margin-top": "6px!important", "font-size": "17px", "text-align": "center", "margin":"1px", "--hover-color": "#d33682"}, # Hover-over Menu color
             "nav-link-selected": {"background-color": "#d33682"} # Selected Menu color
             })
 
