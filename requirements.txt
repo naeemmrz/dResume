@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 Pillow==9.5.0
 streamlit==1.22.0
 streamlit-option-menu==0.3.4
+=======
+Pillow
+streamlit
+>>>>>>> 1bfbbe28f34eb56e40671219d9823b58cc387554
