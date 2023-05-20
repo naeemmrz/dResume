@@ -23,7 +23,7 @@ SOCIAL_MEDIA = {
     "LinkedIn": "https://www.linkedin.com/in/naeemmrz/",
     "GitHub": "https://github.com/naeemmrz/",
     "Instagram": "https://www.instagram.com/naeemmrz/",
-
+}
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON, layout="centered")
 
 	
