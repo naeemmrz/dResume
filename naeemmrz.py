@@ -16,31 +16,17 @@ PAGE_TITLE = "CV | Naeem A"
 PAGE_ICON = ":lab_coat:"
 NAME = "Naeem A."
 DESCRIPTION = """
-Molecular Biologist, currently doing an international Masters in Vaccinology.
+Molecular Biologist, currently doing an international Master in Vaccinology.
 """
 EMAIL = "merzanaeem007@gemail.com"
 SOCIAL_MEDIA = {
     "LinkedIn": "https://www.linkedin.com/in/naeemmrz/",
     "GitHub": "https://github.com/naeemmrz/",
     "Instagram": "https://www.instagram.com/naeemmrz/",
-}
-PROJECTS = {
-    "🏆 Sales Dashboard - Comparing sales across three stores": "https://youtu.be/Sb0A9i6d320",
-    "🏆 Income and Expense Tracker - Web app with NoSQL database": "https://youtu.be/3egaMfE9388",
-    "🏆 Desktop Application - Excel2CSV converter with user settings & menubar": "https://youtu.be/LzCfNanQ_9c",
-    "🏆 MyToolBelt - Custom MS Excel add-in to combine Python & Excel": "https://pythonandvba.com/mytoolbelt/",
-}
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON, layout="centered")
 
-#col1, col2, col3 = st.columns([0.2, 0.6, 0.2])
-#with col1:
-#    st.write('#')
-#with col2:
-#    st.write('#')
-#with col3:
-#    st.write('#')
-
+	
 # --- LOAD CSS, PDF & PROFIL PIC ---
 with open(css_file) as f:
     st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
@@ -80,8 +66,8 @@ st.write('\n')
 st.subheader("Experience & Qulifications")
 st.write(
     """
-- :white_check_mark: 2+ Years of hands on expereince in mammalian cell culture
-- :white_check_mark: Good understanding of compuational drug discovery methodologies
+- :white_check_mark: 2+ Years of hands-on experience in mammalian cell culture
+- :white_check_mark: Good understanding of computational drug discovery methodologies
 - :white_check_mark: Proficient in academic English writing and presenting
 - :white_check_mark: Unwaveringly reliable with a strong drive for excellence
 """
@@ -114,9 +100,9 @@ if selected == "Education & Skills":
     st.write("---")
     st.write(
         """
-    🥇 I'm can independantly do the following:
+    🥇 I can independently do the following:
     - 🧫 Mammalian cell culture: MTT, PCR, qRT-PCR, Gel electrophoresis
-    - 👩‍💻 Machine learning: Python (Scikit-learn, Pandas, steamlit)
+    - 👩‍💻 Machine learning: Python (Scikit-learn, Pandas, streamlit)
     - ⚗️ Chemoinformatics: Drug discovery (RDKit, QSAR, Vina, NAMD)
     - 📝 Academic writing: Manuscript/poster drafting (MS, Canva, Mendeley)
     """
@@ -127,7 +113,7 @@ if selected == "Education & Skills":
     🥈 I know how to but will need some time with:
     - 🔬 Immunu-assays: Western blot, ELISA, IHC, immunoassays
     - 👩‍💻 Programming: R/RStudio (Statistical testing)
-    - 📊 Data Visulization: Matplotlib, Seaborn, GraphPad Prism 
+    - 📊 Data Visualization: Matplotlib, Seaborn, GraphPad Prism 
 
     """
     )
@@ -140,11 +126,11 @@ if selected == "Education & Skills":
     st.write("---")
 
     # --- JOB 1
-    st.write("🚧", "**Erasmus Mundus Joint Masters Degree | [Leanding International Vaccinology Education](https://www.uantwerpen.be/en/about-uantwerp/faculties/fbd/international/international-programmes/vaccinology-master/)**")
+    st.write("🚧", "**Erasmus Mundus Joint Masters Degree | [Leading International Vaccinology Education](https://www.uantwerpen.be/en/about-uantwerp/faculties/fbd/international/international-programmes/vaccinology-master/)**")
     st.write("09/2023 - Present")
     st.write(
         """
-    - ► I've completed my first semester taking courses in immunology and immunopathology at Universidad de Barcelona & Universitat Autònoma de Barcelona.
+    - ► I've completed my first-semester taking courses in immunology and immunopathology at Universidad de Barcelona & Universitat Autònoma de Barcelona.
     - ► I'm currently doing my second semester at the Universiteit Antwerpen in the field of infectiology. 
     """
     )
@@ -155,11 +141,11 @@ if selected == "Education & Skills":
     st.write("09/2022 - Present")
     st.write(
         """
-    - ► Conceptulized and composed a research proposal in the field of drug repuprosing
+    - ► Conceptualised and composed a research proposal in the field of drug repurposing
     - ► Performed chemoinformatics and computational drug discovery analysis  
-    - ► Independantly worked in cell culture laboratory, rutinely performed cytotoxicity, gene expression and molecular biology assays
-    - ► Supervised 2 ungraduate students research project
-    - ► I was responsible for the budget managment and reporting of the research grant
+    - ► Independently worked in cell culture laboratory, routinely performed cytotoxicity, gene expression and, molecular biology assays
+    - ► Supervised 2 undergraduate student's research project
+    - ► I was responsible for the budget management and reporting of the research grant
     - ► CGPA 3.91/4.00 & thesis defence is scheduled at the end of summer 2023
     """
     )
@@ -170,10 +156,10 @@ if selected == "Education & Skills":
     st.write("09/2018 - 09/2021")
     st.write(
         """
-    - ► Gradutaed in the top 1% of the as a High Honors student with a CGPA 3.68/4.00 
+    - ► Graduated in the top 1% of the as a High Honors student with a CGPA of 3.68/4.00 
     - ► Worked on an undergraduate research project funded by the Turkish NSF
-    - ► Interned at a Molecular Microbiolgy lab and worked on computational drug discovery
-    -   I did a 3 month internship is a plant tissue culture and cyropreservation lab
+    - ► Interned at a Molecular Microbiology lab and worked on computational drug discovery
+    - ► I did a 3-month internship in a plant tissue culture and cryopreservation lab
     - ► Participated as an Erasmus+ Exchange Student for 1 semester at the Bydgoszcz University of Science and Technology
     - ► Published 3 peer-reviewed articles, 2 posters and 1 oral presentation 
     """
@@ -187,8 +173,8 @@ if selected == "Education & Skills":
     st.write(
         """
     - ► Worked in catering and waitressing at different locations on & off during weekends while doing my undergraduate 
-    - ► Worked in game arcade, cinema reception, bowling reception, etc during undergaraduate summer breaks
-    - ► Worked as an assitant for the logsitics team in a Carpet company after high school for 9 months  
+    - ► Worked in a game arcade, cinema reception, bowling reception, etc during undergraduate summer breaks
+    - ► Worked as an assistant for the logistics team in a Carpet company after high school for 9 months  
     """
     )
 
@@ -223,13 +209,13 @@ if selected == "Awards & Accomplishments":
     st.write("---")
 
     st.write("🏆", "European Education and Culture Executive Agency Scholarship - 09/2022")
-    st.markdown("<div style='text-align: justify;'>Full EACEA scholarship for 2 years to participate in an Earsmus Mundus Joint Masters Degree.</div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: justify;'>Full EACEA scholarship for 2 years to participate in an Erasmus Mundus Joint Masters Degree.</div>", unsafe_allow_html=True)
     st.write('\n')
     st.write('\n')
     st.write('\n')
 
     st.write("🏆", "High Honors Degree - 09/2021")
-    st.markdown("<div style='text-align: justify;'>Statutory award given to undergraduate students who graduate with remarkably high CGPA.</div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: justify;'>A statutory award given to undergraduate students who graduate with remarkably high CGPA.</div>", unsafe_allow_html=True)
     st.write('\n')
     st.write('\n')
     st.write('\n')
@@ -263,37 +249,37 @@ if selected == "Publications":
     st.write("---")
 
     st.markdown("<div style='text-align: justify;'> 📰 <b>Abdul Ghafoor, N.</b> & Yildiz, A. Targeting MDM2-p53 Axis Through Drug Repurposing for Cancer Therapy: A Multidisciplinary Approach. (2023) <i>Preprint</i>. <br><a href='https://doi.org/10.21203/rs.3.rs-2907077/v1'>🔗https://doi.org/10.21203/rs.3.rs-2907077/v1</a> </div>", unsafe_allow_html=True)
-    st.markdown("<div style='text-align: justify;'>My contribution: I was involved in designed the study, performed the experiments, and drafted the manuscript.</div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: justify;'>My contribution: I designed the study, performed the experiments and analysis, and drafted the manuscript.</div>", unsafe_allow_html=True)
     st.write('\n')
     st.write('\n')
 
     st.markdown("<div style='text-align: justify;'> 📰 <b>Abdul Ghafoor, N.</b> & Sitkowska, B. Computational repurposing of FDA-approved drugs against specific mastitis-causing pathogens. (2022) <i>Acta Scientiarum Polonorum Zootechnica</i>. <br><a href='http://dx.doi.org/10.21005/asp.2021.20.4.02'>🔗http://dx.doi.org/10.21005/asp.2021.20.4.02</a> </div>", unsafe_allow_html=True)
-    st.markdown("<div style='text-align: justify;'>My contribution: I designed the study, performed the experiments, and drafted the manuscript.</div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: justify;'>My contribution: I designed the study, performed the experiments and analysis, and drafted the manuscript.</div>", unsafe_allow_html=True)
     st.write('\n')
     st.write('\n')
 
     st.markdown("<div style='text-align: justify;'> 📰 <b>Abdul Ghafoor, N.</b>, Galatali, S., Yeniocak, S., Kaya, E., Sarac, N. & Uğur, A. Investigating anticancer potency of in vitro propagated endemic Thymus cilicicus Boiss. & Bal. extract on human lung, breast, and prostate cancer cell lines. (2022) <i>Biologia</i>. <br><a href='https://doi.org/10.1007/s11756-022-01168-7'>🔗https://doi.org/10.1007/s11756-022-01168-7</a> </div>", unsafe_allow_html=True)
-    st.markdown("<div style='text-align: justify;'>My contribution: I performed the experiments, and drafted the manuscript.</div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: justify;'>My contribution: I performed the experiments and drafted the manuscript.</div>", unsafe_allow_html=True)
     st.write('\n')
     st.write('\n')
 
     st.markdown("<div style='text-align: justify;'> 📰 <b>Abdul Ghafoor, N.</b> & Sitkowska, B. MasPA: A Machine Learning Application to Predict Risk of Mastitis in Cattle from AMS Sensor Data. (2021) <i>AgriEngineering</i>. <br><a href='https://doi.org/10.3390/agriengineering3030037'>🔗https://doi.org/10.3390/agriengineering3030037</a> </div>", unsafe_allow_html=True)
-    st.markdown("<div style='text-align: justify;'>My contribution: I designed the study, performed the experiments and drafted the manuscript.</div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: justify;'>My contribution: I designed the study, performed the experiments and analysis, and drafted the manuscript.</div>", unsafe_allow_html=True)
     st.write('\n')
     st.write('\n')
 
     st.markdown("<div style='text-align: justify;'> 📰 Kivrak Kiran, S., Galatali, S., Yeniocak, S., Ozkaya, D. E., Mercan, T., Guldag, S., Celik, O., <b>Abdul Ghafoor, N.</b>, & Kaya, E. Investigation of modified WPM medium for the best meristem proliferation of Corylus avellana L. (2021) <i>Advances in Horticultural Science</i>. <br><a href='https://doi.org/10.36253/ahsc-10536'>🔗https://doi.org/10.36253/ahsc-10536</a> </div>", unsafe_allow_html=True)
-    st.markdown("<div style='text-align: justify;'>My contribution: I translated (from Turkish to English), compiled and proof-read the manuscript.</div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: justify;'>My contribution: I translated (from Turkish to English), compiled and proofread the manuscript.</div>", unsafe_allow_html=True)
     st.write('\n')
     st.write('\n')
 
     st.markdown("<div style='text-align: justify;'> 📰 Baysal, Ö., <b>Abdul Ghafoor, N.</b>, Silme, RS., Ignatov, AN., Kniazeva, V. Molecular dynamics analysis of N-acetyl-D-glucosamine against specific SARS-CoV-2’s pathogenicity factors. (2021) <i>PLoS ONE</i>. <br><a href='http://dx.doi.org/10.1371/journal.pone.0252571'>🔗http://dx.doi.org/10.1371/journal.pone.0252571</a> </div>", unsafe_allow_html=True)
-    st.markdown("<div style='text-align: justify;'>My contribution: I performed the compuational experiments and contributed to the writing of the manuscript.</div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: justify;'>My contribution: I performed the computational experiments and contributed to the writing of the manuscript.</div>", unsafe_allow_html=True)
     st.write('\n')
     st.write('\n')
 
     st.markdown("<div style='text-align: justify;'> 📰 Galatali, S., <b>Abdul Ghafoor, N.</b>, Kaya, E. Characterization of Olive (Olea Europaea L.) Genetic Resources via PCR-Based Molecular Marker Systems. (2021) <i>European Journal of Biology and Biotechnology</i>. <br><a href='http://dx.doi.org/10.24018/ejbio.2021.2.1.146'>🔗http://dx.doi.org/10.24018/ejbio.2021.2.1.146</a> </div>", unsafe_allow_html=True)
-    st.markdown("<div style='text-align: justify;'>My contribution: I translated (from Turkish to English), compiled and proof-read the manuscript.</div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: justify;'>My contribution: I translated (from Turkish to English), compiled and proofread the manuscript.</div>", unsafe_allow_html=True)
     st.write('\n')
     st.write('\n')
 
