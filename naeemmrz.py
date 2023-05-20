@@ -222,7 +222,7 @@ if selected == "Awards & Accomplishments":
     st.subheader("Awards & Accomplishments")
     st.write("---")
 
-    st.write("🏆", "European Education and Culture Executive Agency Scholarship - 09/2023")
+    st.write("🏆", "European Education and Culture Executive Agency Scholarship - 09/2022")
     st.markdown("<div style='text-align: justify;'>Full EACEA scholarship for 2 years to participate in an Earsmus Mundus Joint Masters Degree.</div>", unsafe_allow_html=True)
     st.write('\n')
     st.write('\n')
