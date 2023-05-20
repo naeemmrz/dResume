@@ -49,8 +49,8 @@ with col2:
         file_name=resume_file.name,
         mime="application/octet-stream",
     )
-    st.write(f"[![email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)]({EMAIL})", "--", f"[![Repo](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]({SOCIAL_MEDIA['LinkedIn']})", "--", f"[![Repo](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)]({SOCIAL_MEDIA['GitHub']})")
-    st.write(EMAIL)
+    st.write(f"[![Repo](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]({SOCIAL_MEDIA['LinkedIn']})", "--", f"[![Repo](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)]({SOCIAL_MEDIA['GitHub']})", "--", f"[![repo](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)]({EMAIL})")
+
 
 st.write('\n')
 # --- SOCIAL LINKS ---
