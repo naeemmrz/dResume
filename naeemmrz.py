@@ -12,13 +12,14 @@ resume_file = current_dir / "assets" / "CV.pdf"
 profile_pic = current_dir / "assets" / "profile-pic.png"
 
 # --- GENERAL SETTINGS ---
-PAGE_TITLE = "Curriculum Vitae | Naeem A"
+PAGE_TITLE = "Portfolio | Naeem A"
 PAGE_ICON = ":lab_coat:"
 NAME = "Naeem A."
 DESCRIPTION = """
-Molecular Biologist, currently doing an international Master in Vaccinology.
+I am a molecular biologist specializing in vaccinology, passionate about research in the intersection of immunology, molecular biology and informatics.
+In my free time I like to go out and explore new places, cities and cultures. I also like outdoor camping and cats. 
 """
-EMAIL = "mailto:merzanaeem007@gemail.com"
+EMAIL = "mailto:merzanaeem007@gmail.com"
 SOCIAL_MEDIA = {
     "LinkedIn": "https://www.linkedin.com/in/naeemmrz/",
     "GitHub": "https://github.com/naeemmrz/",
@@ -36,13 +37,17 @@ profile_pic = Image.open(profile_pic)
 
 
 # --- HERO SECTION ---
-col1, col2 = st.columns(2, gap="small")
+col1, col2 = st.columns([0.4, 0.5])
 with col1:
-    st.image(profile_pic, width=230)
+    st.write("\n")
+    st.write("\n")
+    st.image(profile_pic, width=220)
 
 with col2:
-    st.title(NAME)
-    st.write(DESCRIPTION)
+    st.header(NAME)
+    st.markdown(f"<div style='text-align: justify;'>{DESCRIPTION}</div>", unsafe_allow_html=True)
+    st.write("\n")
+
     st.download_button(
         label=" 📄 Download Compact Curriculum Vitae",
         data=PDFbyte,
@@ -63,10 +68,10 @@ st.write('\n')
 st.write('\n')
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write('\n')
-st.subheader("Experience & Qualifications")
+st.subheader("Highlights")
 st.write(
     """
-- :white_check_mark: 2+ Years of hands-on experience in mammalian cell culture
+- :white_check_mark: 2+ years of hands-on experience in mammalian cell culture
 - :white_check_mark: Good understanding of computational drug discovery methodologies
 - :white_check_mark: Proficient in academic English writing and presenting
 - :white_check_mark: Unwaveringly reliable with a strong drive for excellence
@@ -77,20 +82,20 @@ st.write('\n')
 st.write('\n')
 # --- THE MENU BAR ---
 selected = option_menu(menu_title=None,
-			options=[ "Education & Skills", "Awards & Accomplishments", "Publications"],
+			options=[ "Education & Qualifications", "Awards & Accomplishments", "Publications & Proceedings"],
 			icons=["buildings", "trophy", "newspaper"],
 			menu_icon="cast",
 			default_index=1,
 			orientation="horizontal",
 			styles={
-			"container": {"height": "70px", "font-size": "18px", "padding": "2px!important", "background-color": "#002b36"}, # Menu BG color
+			"container": {"height": "70px", "font-size": "16px", "padding": "2px!important", "background-color": "#002b36"}, # Menu BG color
 			"icon": {"font-size": "18px"}, 
-			"nav-link": {"margin-top": "6px!important", "font-size": "20px", "text-align": "center", "margin":"2px", "--hover-color": "#B64003"}, # Hover-over Menu color
+			"nav-link": {"margin-top": "6px!important", "font-size": "18px", "text-align": "center", "margin":"2px", "--hover-color": "#B64003"}, # Hover-over Menu color
             "nav-link-selected": {"background-color": "#B64003"} # Selected Menu color
             })
 
 
-if selected == "Education & Skills":
+if selected == "Education & Qualifications":
     
     
     st.write('\n')
@@ -101,7 +106,7 @@ if selected == "Education & Skills":
     st.write(
         """
     🥇 I can independently do the following:
-    - 🧫 Mammalian cell culture: MTT, PCR, qRT-PCR, Gel electrophoresis
+    - 🧫 Mammalian cell culture: MTT, qRT-PCR, DNA/RNA extraction, gel electrophoresis, etc
     - 👩‍💻 Machine learning: Python (Scikit-learn, Pandas, streamlit)
     - ⚗️ Chemoinformatics: Drug discovery (RDKit, QSAR, Vina, NAMD)
     - 📝 Academic writing: Manuscript/poster drafting (MS, Canva, Mendeley)
@@ -122,6 +127,7 @@ if selected == "Education & Skills":
     st.write('\n')
     # --- EDUCATION & WORK HISTORY ---
     st.write('\n')
+    st.write('\n')
     st.subheader("Education & Work History")
     st.write("---")
 
@@ -137,13 +143,14 @@ if selected == "Education & Skills":
 
     # --- JOB 2
     st.write('\n')
-    st.write("🚧", "**Master of Science | [Molecular Biology & Genetics](http://www.fenbilimleri.mu.edu.tr/en)**")
+    st.write('\n')
+    st.write("🚧", "**Master of Science | [Molecular Biology & Genetics](http://www.fenbilimleri.mu.edu.tr/en)**, Mugla S. K. Univeristy, Turkey")
     st.write("09/2022 - Present")
     st.write(
         """
     - ► Conceptualised and composed a research proposal in the field of drug repurposing
     - ► Performed chemoinformatics and computational drug discovery analysis  
-    - ► Independently worked in cell culture laboratory, routinely performed cytotoxicity, gene expression and, molecular biology assays
+    - ► Independently worked in cell culture laboratory, routinely performed cytotoxicity, gene expression, and molecular biology assays
     - ► Supervised 2 undergraduate student's research project
     - ► I was responsible for the budget management and reporting of the research grant
     - ► CGPA 3.91/4.00 & thesis defence is scheduled at the end of summer 2023
@@ -152,7 +159,8 @@ if selected == "Education & Skills":
 
     # --- JOB 3
     st.write('\n')
-    st.write("🚧", "**Bachelor of Science | [Molecular Biology & Genetics](https://mbg.mu.edu.tr/en)**")
+    st.write('\n')
+    st.write("🚧", "**Bachelor of Science | [Molecular Biology & Genetics](https://mbg.mu.edu.tr/en), Mugla S. K. Univeristy, Turkey**")
     st.write("09/2018 - 09/2021")
     st.write(
         """
@@ -183,6 +191,7 @@ if selected == "Education & Skills":
     st.write('\n')
     # --- WORKSHOPS ---
     st.write('\n')
+    st.write('\n')
     st.subheader("Workshops")
     st.write("---")
     st.write(
@@ -199,6 +208,36 @@ if selected == "Education & Skills":
     )
 
 
+    st.write('\n')
+    st.write('\n')
+    # --- LANGUAGES ---
+    st.write('\n')
+    st.write('\n')
+    st.subheader("Languages")
+    st.write("---")
+    col1, col2= st.columns([0.2, 0.8])
+    with col1:
+        st.write(
+            """
+                - 🌏   English  
+                - 🌏   Turkish  
+                - 🌏   Arabic 
+                - 🌏   Persian
+                - 🌏   French
+            """
+        )
+    with col2:
+        st.write(
+            """
+                - Advanced (C2) level 
+                - Advanced (C1) level 
+                - Native speaker
+                - Native speaker
+                - Currently learning (A1)
+            """
+        )
+
+
 if selected == "Awards & Accomplishments":
 
 
@@ -209,7 +248,7 @@ if selected == "Awards & Accomplishments":
     st.write("---")
 
     st.write("🏆", "European Education and Culture Executive Agency Scholarship - 09/2022")
-    st.markdown("<div style='text-align: justify;'>Full EACEA scholarship for 2 years to participate in an Erasmus Mundus Joint Masters Degree.</div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: justify;'>Full EACEA scholarship for 2 years to participate in Erasmus Mundus Joint Masters Degree in Leading International Vaccinology Education.</div>", unsafe_allow_html=True)
     st.write('\n')
     st.write('\n')
     st.write('\n')
@@ -239,7 +278,7 @@ if selected == "Awards & Accomplishments":
     st.write('\n')
 
 
-if selected == "Publications":
+if selected == "Publications & Proceedings":
 
 
     st.write('\n')
@@ -248,38 +287,38 @@ if selected == "Publications":
     st.subheader("Articles & Preprints")
     st.write("---")
 
-    st.markdown("<div style='text-align: justify;'> 📰 <b>Abdul Ghafoor, N.</b> & Yildiz, A. Targeting MDM2-p53 Axis Through Drug Repurposing for Cancer Therapy: A Multidisciplinary Approach. (2023) <i>Preprint</i>. <br><a href='https://doi.org/10.21203/rs.3.rs-2907077/v1'>🔗https://doi.org/10.21203/rs.3.rs-2907077/v1</a> </div>", unsafe_allow_html=True)
-    st.markdown("<div style='text-align: justify;'>My contribution: I designed the study, performed the experiments and analysis, and drafted the manuscript.</div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: justify;'> 📰 <u>Abdul Ghafoor, N.</u> & Yildiz, A. Targeting MDM2-p53 Axis Through Drug Repurposing for Cancer Therapy: A Multidisciplinary Approach. (2023) <i>Preprint</i>. <br><a href='https://doi.org/10.21203/rs.3.rs-2907077/v1'>🔗https://doi.org/10.21203/rs.3.rs-2907077/v1</a> </div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: justify;'><b>My contribution</b>: I designed the study, performed the experiments and analysis, and drafted the manuscript.</div>", unsafe_allow_html=True)
     st.write('\n')
     st.write('\n')
 
-    st.markdown("<div style='text-align: justify;'> 📰 <b>Abdul Ghafoor, N.</b> & Sitkowska, B. Computational repurposing of FDA-approved drugs against specific mastitis-causing pathogens. (2022) <i>Acta Scientiarum Polonorum Zootechnica</i>. <br><a href='http://dx.doi.org/10.21005/asp.2021.20.4.02'>🔗http://dx.doi.org/10.21005/asp.2021.20.4.02</a> </div>", unsafe_allow_html=True)
-    st.markdown("<div style='text-align: justify;'>My contribution: I designed the study, performed the experiments and analysis, and drafted the manuscript.</div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: justify;'> 📰 <u>Abdul Ghafoor, N.</u> & Sitkowska, B. Computational repurposing of FDA-approved drugs against specific mastitis-causing pathogens. (2022) <i>Acta Scientiarum Polonorum Zootechnica</i>. <br><a href='http://dx.doi.org/10.21005/asp.2021.20.4.02'>🔗http://dx.doi.org/10.21005/asp.2021.20.4.02</a> </div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: justify;'><b>My contribution</b>: I designed the study, performed the experiments and analysis, and drafted the manuscript.</div>", unsafe_allow_html=True)
     st.write('\n')
     st.write('\n')
 
-    st.markdown("<div style='text-align: justify;'> 📰 <b>Abdul Ghafoor, N.</b>, Galatali, S., Yeniocak, S., Kaya, E., Sarac, N. & Uğur, A. Investigating anticancer potency of in vitro propagated endemic Thymus cilicicus Boiss. & Bal. extract on human lung, breast, and prostate cancer cell lines. (2022) <i>Biologia</i>. <br><a href='https://doi.org/10.1007/s11756-022-01168-7'>🔗https://doi.org/10.1007/s11756-022-01168-7</a> </div>", unsafe_allow_html=True)
-    st.markdown("<div style='text-align: justify;'>My contribution: I performed the experiments and drafted the manuscript.</div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: justify;'> 📰 <u>Abdul Ghafoor, N.</u>, Galatali, S., Yeniocak, S., Kaya, E., Sarac, N. & Uğur, A. Investigating anticancer potency of in vitro propagated endemic Thymus cilicicus Boiss. & Bal. extract on human lung, breast, and prostate cancer cell lines. (2022) <i>Biologia</i>. <br><a href='https://doi.org/10.1007/s11756-022-01168-7'>🔗https://doi.org/10.1007/s11756-022-01168-7</a> </div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: justify;'><b>My contribution</b>: I performed the experiments and drafted the manuscript.</div>", unsafe_allow_html=True)
     st.write('\n')
     st.write('\n')
 
-    st.markdown("<div style='text-align: justify;'> 📰 <b>Abdul Ghafoor, N.</b> & Sitkowska, B. MasPA: A Machine Learning Application to Predict Risk of Mastitis in Cattle from AMS Sensor Data. (2021) <i>AgriEngineering</i>. <br><a href='https://doi.org/10.3390/agriengineering3030037'>🔗https://doi.org/10.3390/agriengineering3030037</a> </div>", unsafe_allow_html=True)
-    st.markdown("<div style='text-align: justify;'>My contribution: I designed the study, performed the experiments and analysis, and drafted the manuscript.</div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: justify;'> 📰 <u>Abdul Ghafoor, N.</u> & Sitkowska, B. MasPA: A Machine Learning Application to Predict Risk of Mastitis in Cattle from AMS Sensor Data. (2021) <i>AgriEngineering</i>. <br><a href='https://doi.org/10.3390/agriengineering3030037'>🔗https://doi.org/10.3390/agriengineering3030037</a> </div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: justify;'><b>My contribution</b>: I designed the study, performed the experiments and analysis, and drafted the manuscript.</div>", unsafe_allow_html=True)
     st.write('\n')
     st.write('\n')
 
-    st.markdown("<div style='text-align: justify;'> 📰 Kivrak Kiran, S., Galatali, S., Yeniocak, S., Ozkaya, D. E., Mercan, T., Guldag, S., Celik, O., <b>Abdul Ghafoor, N.</b>, & Kaya, E. Investigation of modified WPM medium for the best meristem proliferation of Corylus avellana L. (2021) <i>Advances in Horticultural Science</i>. <br><a href='https://doi.org/10.36253/ahsc-10536'>🔗https://doi.org/10.36253/ahsc-10536</a> </div>", unsafe_allow_html=True)
-    st.markdown("<div style='text-align: justify;'>My contribution: I translated (from Turkish to English), compiled and proofread the manuscript.</div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: justify;'> 📰 Kivrak Kiran, S., Galatali, S., Yeniocak, S., Ozkaya, D. E., Mercan, T., Guldag, S., Celik, O., <u>Abdul Ghafoor, N.</u>, & Kaya, E. Investigation of modified WPM medium for the best meristem proliferation of Corylus avellana L. (2021) <i>Advances in Horticultural Science</i>. <br><a href='https://doi.org/10.36253/ahsc-10536'>🔗https://doi.org/10.36253/ahsc-10536</a> </div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: justify;'><b>My contribution</b>: I translated (from Turkish to English), compiled and proofread the manuscript.</div>", unsafe_allow_html=True)
     st.write('\n')
     st.write('\n')
 
-    st.markdown("<div style='text-align: justify;'> 📰 Baysal, Ö., <b>Abdul Ghafoor, N.</b>, Silme, RS., Ignatov, AN., Kniazeva, V. Molecular dynamics analysis of N-acetyl-D-glucosamine against specific SARS-CoV-2’s pathogenicity factors. (2021) <i>PLoS ONE</i>. <br><a href='http://dx.doi.org/10.1371/journal.pone.0252571'>🔗http://dx.doi.org/10.1371/journal.pone.0252571</a> </div>", unsafe_allow_html=True)
-    st.markdown("<div style='text-align: justify;'>My contribution: I performed the computational experiments and contributed to the writing of the manuscript.</div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: justify;'> 📰 Baysal, Ö., <u>Abdul Ghafoor, N.</u>, Silme, RS., Ignatov, AN., Kniazeva, V. Molecular dynamics analysis of N-acetyl-D-glucosamine against specific SARS-CoV-2’s pathogenicity factors. (2021) <i>PLoS ONE</i>. <br><a href='http://dx.doi.org/10.1371/journal.pone.0252571'>🔗http://dx.doi.org/10.1371/journal.pone.0252571</a> </div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: justify;'><b>My contribution</b>: I performed the computational experiments and contributed to the writing of the manuscript.</div>", unsafe_allow_html=True)
     st.write('\n')
     st.write('\n')
 
-    st.markdown("<div style='text-align: justify;'> 📰 Galatali, S., <b>Abdul Ghafoor, N.</b>, Kaya, E. Characterization of Olive (Olea Europaea L.) Genetic Resources via PCR-Based Molecular Marker Systems. (2021) <i>European Journal of Biology and Biotechnology</i>. <br><a href='http://dx.doi.org/10.24018/ejbio.2021.2.1.146'>🔗http://dx.doi.org/10.24018/ejbio.2021.2.1.146</a> </div>", unsafe_allow_html=True)
-    st.markdown("<div style='text-align: justify;'>My contribution: I translated (from Turkish to English), compiled and proofread the manuscript.</div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: justify;'> 📰 Galatali, S., <u>Abdul Ghafoor, N.</u>, Kaya, E. Characterization of Olive (Olea Europaea L.) Genetic Resources via PCR-Based Molecular Marker Systems. (2021) <i>European Journal of Biology and Biotechnology</i>. <br><a href='http://dx.doi.org/10.24018/ejbio.2021.2.1.146'>🔗http://dx.doi.org/10.24018/ejbio.2021.2.1.146</a> </div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: justify;'><b>My contribution</b>: I translated (from Turkish to English), compiled and proofread the manuscript.</div>", unsafe_allow_html=True)
     st.write('\n')
     st.write('\n')
 
@@ -288,17 +327,17 @@ if selected == "Publications":
     st.subheader("Posters & Conference Abstracts")
     st.write("---")
 
-    st.markdown("<div style='text-align: justify;'> 👨‍🏫 <b>Abdul Ghafoor, N.</b> & Sitkowska, B. Computational Repurposing of FDA-approved Drugs Against Specific Mastitis-causing Pathogens. (2021) <i>International Conference Environment - Animal - Human.</i> Remote, Poland. <br><a href='http://dx.doi.org/10.13140/RG.2.2.26908.36480'>🔗http://dx.doi.org/10.13140/RG.2.2.26908.36480</a> </div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: justify;'> 👨‍🏫 <u>Abdul Ghafoor, N.</u> & Yildiz, A. A Machine Learning Approach to Predict in Vitro Efficacy of Human Lung Adenocarcinoma Proliferation Inhibitors. (2022) <i>5th International Symposium on Bioinformatics (InSyB2021).</i> Istanbul, Turkey. <br><a href='http://dx.doi.org/10.13140/RG.2.2.21710.38725'>🔗http://dx.doi.org/10.13140/RG.2.2.21710.38725</a> </div>", unsafe_allow_html=True)
     st.markdown("<div style='text-align: justify;'><b>Poster presentation</b>.</div>", unsafe_allow_html=True)
     st.write('\n')
     st.write('\n')
 
-    st.markdown("<div style='text-align: justify;'> 👨‍🏫 <b>Abdul Ghafoor, N.</b>, Galatali, S., Yeniocak, S., Saman, Z., Kaya, E., & Sarac, N. Cytotoxicity, wound healing & anti-cancer potency of in vitro cultured Thymus cilicicus Boiss. & Bal. ethanolic extracts. (2022) <i>1st International Conference on Experimental Sciences and Biotechnology.</i> Mugla, Turkey. <br><a href='https://www.researchgate.net/publication/356193661_Cytotoxicity_Wound_Healing_Anti-cancer_Potency_of_in_vitro_Cultured_Thymus_cilicicus_Boiss_Bal_Ethanolic_Extracts'>🔗https://www.researchgate.net/publication/356193661</a> </div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: justify;'> 👨‍🏫 <u>Abdul Ghafoor, N.</u>, Galatali, S., Yeniocak, S., Saman, Z., Kaya, E., & Sarac, N. Cytotoxicity, wound healing & anti-cancer potency of in vitro cultured Thymus cilicicus Boiss. & Bal. ethanolic extracts. (2022) <i>1st International Conference on Experimental Sciences and Biotechnology.</i> Mugla, Turkey. <br><a href='https://www.researchgate.net/publication/356193661_Cytotoxicity_Wound_Healing_Anti-cancer_Potency_of_in_vitro_Cultured_Thymus_cilicicus_Boiss_Bal_Ethanolic_Extracts'>🔗https://www.researchgate.net/publication/356193661</a> </div>", unsafe_allow_html=True)
     st.markdown("<div style='text-align: justify;'><b>Oral presentation</b>.</div>", unsafe_allow_html=True)
     st.write('\n')
     st.write('\n')
 
-    st.markdown("<div style='text-align: justify;'> 👨‍🏫 <b>Abdul Ghafoor, N.</b> & Yildiz, A. A Machine Learning Approach to Predict in Vitro Efficacy of Human Lung Adenocarcinoma Proliferation Inhibitors. (2022) <i>5th International Symposium on Bioinformatics (InSyB2021).</i> Istanbul, Turkey. <br><a href='http://dx.doi.org/10.13140/RG.2.2.21710.38725'>🔗http://dx.doi.org/10.13140/RG.2.2.21710.38725</a> </div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: justify;'> 👨‍🏫 <u>Abdul Ghafoor, N.</u> & Sitkowska, B. Computational Repurposing of FDA-approved Drugs Against Specific Mastitis-causing Pathogens. (2021) <i>International Conference Environment - Animal - Human.</i> Remote, Poland. <br><a href='http://dx.doi.org/10.13140/RG.2.2.26908.36480'>🔗http://dx.doi.org/10.13140/RG.2.2.26908.36480</a> </div>", unsafe_allow_html=True)
     st.markdown("<div style='text-align: justify;'><b>Poster presentation</b>.</div>", unsafe_allow_html=True)
     st.write('\n')
     st.write('\n')
