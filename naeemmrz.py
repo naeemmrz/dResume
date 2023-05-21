@@ -17,7 +17,7 @@ PAGE_ICON = ":lab_coat:"
 NAME = "Naeem A."
 DESCRIPTION = """
 I am a molecular biologist specializing in vaccinology, passionate about research in the intersection of immunology, molecular biology and informatics.
-In my free time I like to go out and explore new places, cities and cultures. I also like outdoor camping and cats. 
+In my free time I like to go out and explore new places and cultures. I also like outdoor camping and cats. 
 """
 EMAIL = "mailto:merzanaeem007@gmail.com"
 SOCIAL_MEDIA = {
@@ -39,6 +39,7 @@ profile_pic = Image.open(profile_pic)
 # --- HERO SECTION ---
 col1, col2 = st.columns([0.4, 0.5])
 with col1:
+    st.write("\n")
     st.write("\n")
     st.write("\n")
     st.image(profile_pic, width=220)
