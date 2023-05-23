@@ -131,7 +131,7 @@ if selected == "Education & Qualifications":
     st.write(
         """
     🥈 Foundational knowledge in the following areas:
-    - 🔬 Immunu-assays: Western blot, ELISA, IHC, immunoassays
+    - 🔬 Immuno-assays: Western blot, ELISA, IHC, immunoassays
     - 👩‍💻 Programming: R/RStudio (Statistical testing)
     - 📊 Data Visualization: Matplotlib, Seaborn, GraphPad Prism 
 
