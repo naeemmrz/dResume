@@ -16,8 +16,8 @@ PAGE_TITLE = "Portfolio | Naeem A"
 PAGE_ICON = ":lab_coat:"
 NAME = "Naeem A."
 DESCRIPTION = """
-I am a molecular biologist specializing in vaccinology, passionate about research in the intersection of immunology, molecular biology and informatics.
-In my free time I like to go out and explore new places and cultures. I also like outdoor camping and cats. 
+I am a molecular biologist with a specialization in vaccinology. My research passion encompasses the convergence of immunology, molecular biology, and informatics.
+Beyond my academic pursuits, I find solace in outdoor camping and I have a profound interest in discovering new destinations and immersing myself in diverse cultures. 
 """
 EMAIL = "mailto:merzanaeem007@gmail.com"
 SOCIAL_MEDIA = {
@@ -42,7 +42,9 @@ with col1:
     st.write("\n")
     st.write("\n")
     st.write("\n")
-    st.image(profile_pic, width=220)
+    st.write("\n")
+    st.write("\n")
+    st.image(profile_pic, width=250)
 
 with col2:
     st.header(NAME)
@@ -72,7 +74,7 @@ st.write('\n')
 st.subheader("Highlights")
 st.write(
     """
-- :white_check_mark: 2+ years of hands-on experience in mammalian cell culture
+- :white_check_mark: Extensive hands-on experience in mammalian cell culture
 - :white_check_mark: Good understanding of computational drug discovery methodologies
 - :white_check_mark: Proficient in academic English writing and presenting
 - :white_check_mark: Unwaveringly reliable with a strong drive for excellence
@@ -95,6 +97,18 @@ selected = option_menu(menu_title=None,
             "nav-link-selected": {"background-color": "#B64003"} # Selected Menu color
             })
 
+#############################################################################################################################################################
+#############################################################################################################################################################
+#############################################################################################################################################################
+#############################################################################################################################################################
+#############################################################################################################################################################
+#############################################################################################################################################################
+#############################################################################################################################################################
+#############################################################################################################################################################
+#############################################################################################################################################################
+#############################################################################################################################################################
+#############################################################################################################################################################
+#############################################################################################################################################################
 
 if selected == "Education & Qualifications":
     
@@ -106,7 +120,7 @@ if selected == "Education & Qualifications":
     st.write("---")
     st.write(
         """
-    🥇 I can independently do the following:
+    🥇 High level proficient in the following areas:
     - 🧫 Mammalian cell culture: MTT, qRT-PCR, DNA/RNA extraction, gel electrophoresis, etc
     - 👩‍💻 Machine learning: Python (Scikit-learn, Pandas, streamlit)
     - ⚗️ Chemoinformatics: Drug discovery (RDKit, QSAR, Vina, NAMD)
@@ -116,7 +130,7 @@ if selected == "Education & Qualifications":
     st.write('\n')
     st.write(
         """
-    🥈 I know how to but will need some time with:
+    🥈 Foundational knowledge in the following areas:
     - 🔬 Immunu-assays: Western blot, ELISA, IHC, immunoassays
     - 👩‍💻 Programming: R/RStudio (Statistical testing)
     - 📊 Data Visualization: Matplotlib, Seaborn, GraphPad Prism 
@@ -133,19 +147,20 @@ if selected == "Education & Qualifications":
     st.write("---")
 
     # --- JOB 1
-    st.write("🚧", "**Erasmus Mundus Joint Masters Degree | [Leading International Vaccinology Education](https://www.uantwerpen.be/en/about-uantwerp/faculties/fbd/international/international-programmes/vaccinology-master/)**")
+    st.write("🚧", "**Erasmus Mundus Joint Masters Degree | [🔗 Leading International Vaccinology Education](https://www.uantwerpen.be/en/about-uantwerp/faculties/fbd/international/international-programmes/vaccinology-master/)** - France, Spain & Belgium")
     st.write("09/2023 - Present")
     st.write(
         """
-    - ► I've completed my first-semester taking courses in immunology and immunopathology at Universidad de Barcelona & Universitat Autònoma de Barcelona.
-    - ► I'm currently doing my second semester at the Universiteit Antwerpen in the field of infectiology. 
+    - ► A comprehensive and interdisciplinary program delivered jointly by Universidad de Barcelona, Universitat Autònoma de Barcelona, Universiteit Antwerpen, Université de Saint-Etienne & Université Claude Bernard Lyon. 
+    - ► Completed the first courses and practicals in immunology and immunopathology at Universidad de Barcelona & Universitat Autònoma de Barcelona.
+    - ► Currently under taking courses and practicals in infectious disease, advanced data analysis, and clinical drug research.
     """
     )
 
     # --- JOB 2
     st.write('\n')
     st.write('\n')
-    st.write("🚧", "**Master of Science | [Molecular Biology & Genetics](http://www.fenbilimleri.mu.edu.tr/en)**, Mugla S. K. Univeristy, Turkey")
+    st.write("🚧", "**Master of Science | [🔗 Molecular Biology & Genetics](http://www.fenbilimleri.mu.edu.tr/en)**, Mugla S. K. Univeristy - Turkey")
     st.write("09/2022 - Present")
     st.write(
         """
@@ -153,7 +168,7 @@ if selected == "Education & Qualifications":
     - ► Performed chemoinformatics and computational drug discovery analysis  
     - ► Independently worked in cell culture laboratory, routinely performed cytotoxicity, gene expression, and molecular biology assays
     - ► Supervised 2 undergraduate student's research project
-    - ► I was responsible for the budget management and reporting of the research grant
+    - ► Responsible for budget management and reporting of the research grant
     - ► CGPA 3.91/4.00 & thesis defence is scheduled at the end of summer 2023
     """
     )
@@ -161,29 +176,17 @@ if selected == "Education & Qualifications":
     # --- JOB 3
     st.write('\n')
     st.write('\n')
-    st.write("🚧", "**Bachelor of Science | [Molecular Biology & Genetics](https://mbg.mu.edu.tr/en), Mugla S. K. Univeristy, Turkey**")
+    st.write("🚧", "**Bachelor of Science | [🔗 Molecular Biology & Genetics](https://mbg.mu.edu.tr/en), Mugla S. K. Univeristy - Turkey**")
     st.write("09/2018 - 09/2021")
     st.write(
         """
     - ► Graduated in the top 1% of the as a High Honors student with a CGPA of 3.68/4.00 
     - ► Worked on an undergraduate research project funded by the Turkish NSF
     - ► Interned at a Molecular Microbiology lab and worked on computational drug discovery
-    - ► I did a 3-month internship in a plant tissue culture and cryopreservation lab
+    - ► Co-authored a Tukish NSF-funded undergraduate research project on natural plant-products
+    - ► Took part in a 3-month internship in a plant tissue culture and cryopreservation lab
     - ► Participated as an Erasmus+ Exchange Student for 1 semester at the Bydgoszcz University of Science and Technology
     - ► Published 3 peer-reviewed articles, 2 posters and 1 oral presentation 
-    """
-    )
-
-    # --- JOB 4
-    st.write('\n')
-    st.write('\n')
-    st.write("🚧", "**Non-Relevant Employments**")
-    st.write("2016 - 2023")
-    st.write(
-        """
-    - ► Worked in catering and waitressing at different locations on & off during weekends while doing my undergraduate 
-    - ► Worked in a game arcade, cinema reception, bowling reception, etc during undergraduate summer breaks
-    - ► Worked as an assistant for the logistics team in a Carpet company after high school for 9 months  
     """
     )
 
@@ -197,14 +200,20 @@ if selected == "Education & Qualifications":
     st.write("---")
     st.write(
         """
-            - 🔰   ICH-GCP certificate - 2023
-            - 🔰   GlaxoSmithKline Hackathon - 2023 
-            - 🔰   Academic IELTS (C2 Proficient) - 2022
-            - 🔰   RSG Turkey Computational Structural Biology Virtual Workshop - 2021
-            - 🔰   Introduction to Machine Learning, Duke University (Coursera) - 2021
-            - 🔰   Welcome to Game Theory, the University of Tokyo (Coursera) - 2021
-            - 🔰   Introduction to Python, Global AI hub, Turkey - 2021
-            - 🔰   1st National Structural Biology Workshop, Koc University, Turkey - 2021
+            🛡️ 2023   
+            - 🔰    ICH-GCP Antwerp University Hospital Certification
+            - 🔰    GlaxoSmithKline Hackathon
+            \n
+            🛡️ 2022 
+            - 🔰    Academic IELTS (C2 Proficient)
+            - 🔰    VaxInLIVE Symposium
+            \n
+            🛡️ 2021
+            - 🔰    RSG Turkey Computational Structural Biology Virtual Workshop
+            - 🔰    Introduction to Machine Learning, Duke University (Coursera)
+            - 🔰    Welcome to Game Theory, the University of Tokyo (Coursera)
+            - 🔰    Introduction to Python, Global AI hub, Turkey
+            - 🔰    1st National Structural Biology Workshop, Koc University, Turkey
         """
     )
 
@@ -216,15 +225,15 @@ if selected == "Education & Qualifications":
     st.write('\n')
     st.subheader("Languages")
     st.write("---")
-    col1, col2= st.columns([0.2, 0.8])
+    col1, col2, col3= st.columns([0.2, 0.4, 0.4])
     with col1:
         st.write(
             """
                 - 🌏   English  
-                - 🌏   Turkish  
-                - 🌏   Arabic 
-                - 🌏   Persian
-                - 🌏   French
+                - 🧿   Turkish  
+                - 🌙   Arabic 
+                - 📜   Persian
+                - 🥐   French
             """
         )
     with col2:
@@ -237,7 +246,40 @@ if selected == "Education & Qualifications":
                 - Currently learning (A1)
             """
         )
+    with col3:
+        st.write("")
 
+
+    # --- JOB 4
+    st.write('\n')
+    st.write('\n')
+    st.write('\n')
+    st.write('\n')
+    st.write('\n')
+    st.subheader("🚧 **Non-Relevant Work Experiences**")
+    st.write("---")
+    st.write("2016 - 2023")
+    st.write(
+        """
+    - ► Worked in catering and waitressing at different locations on & off during weekends throughout my undergraduate 
+    - ► Worked in a game arcade, cinema reception, bowling reception, etc during undergraduate summer breaks
+    - ► Worked as an assistant for the logistics team in a Carpet company after high school for 9 months  
+    """
+    )
+
+    
+#############################################################################################################################################################
+#############################################################################################################################################################
+#############################################################################################################################################################
+#############################################################################################################################################################
+#############################################################################################################################################################
+#############################################################################################################################################################
+#############################################################################################################################################################
+#############################################################################################################################################################
+#############################################################################################################################################################
+#############################################################################################################################################################
+#############################################################################################################################################################
+#############################################################################################################################################################
 
 if selected == "Awards & Accomplishments":
 
@@ -254,30 +296,42 @@ if selected == "Awards & Accomplishments":
     st.write('\n')
     st.write('\n')
 
-    st.write("🏆", "High Honors Degree - 09/2021")
+    st.write("🏆", "High Honors Degree - 2021")
     st.markdown("<div style='text-align: justify;'>A statutory award given to undergraduate students who graduate with remarkably high CGPA.</div>", unsafe_allow_html=True)
     st.write('\n')
     st.write('\n')
     st.write('\n')
 
-    st.write("🏆", "Best Poster Award - 10/2021")
+    st.write("🏆", "Best Poster Award - 2021")
     st.markdown("<div style='text-align: justify;'>First place in the International Conference 'Environment-Animal-Human' Young Scientists Session's poster competition, organized by the West Pomeranian University of Technology, Szczecin, Poland.</div>", unsafe_allow_html=True)
     st.write('\n')
     st.write('\n')
     st.write('\n')
 
-    st.write("🏆", "Academic Incentive Award - 04/2021")
+    st.write("🏆", "Academic Incentive Award - 2021")
     st.markdown("<div style='text-align: justify;'>Monetary award by the Turkish Scientific and Technological Research Council for co-authoring a manuscript in a well-reputed journal (PLoS ONE).</div>", unsafe_allow_html=True)
     st.write('\n')
     st.write('\n')
     st.write('\n')
 
-    st.write("🏆", "Excellence Scholarship - 09/2021")
-    st.markdown("<div style='text-align: justify;'>Merit-based scholarship awarded by Tukey's Directorate General of Foundations for distinctive academic performance.</div>", unsafe_allow_html=True)
+    st.write("🏆", "Excellence Scholarship - 2021")
+    st.markdown("<div style='text-align: justify;'>Merit-based scholarship awarded by Turkey's Directorate General of Foundations for distinctive academic performance. </div>", unsafe_allow_html=True)
     st.write('\n')
     st.write('\n')
     st.write('\n')
 
+#############################################################################################################################################################
+#############################################################################################################################################################
+#############################################################################################################################################################
+#############################################################################################################################################################
+#############################################################################################################################################################
+#############################################################################################################################################################
+#############################################################################################################################################################
+#############################################################################################################################################################
+#############################################################################################################################################################
+#############################################################################################################################################################
+#############################################################################################################################################################
+#############################################################################################################################################################
 
 if selected == "Publications & Proceedings":
 
