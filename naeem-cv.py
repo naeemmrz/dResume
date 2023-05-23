@@ -120,7 +120,7 @@ if selected == "Education & Qualifications":
     st.write("---")
     st.write(
         """
-    🥇 High level proficient in the following areas:
+    🥇 High level proficiency in the following areas:
     - 🧫 Mammalian cell culture: MTT, qRT-PCR, DNA/RNA extraction, gel electrophoresis, etc
     - 👩‍💻 Machine learning: Python (Scikit-learn, Pandas, streamlit)
     - ⚗️ Chemoinformatics: Drug discovery (RDKit, QSAR, Vina, NAMD)
