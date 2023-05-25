@@ -224,7 +224,7 @@ if selected == "Education & Qualifications":
     st.write('\n')
     st.subheader("Languages")
     st.write("---")
-    col1, col2, col3= st.columns([0.2, 0.4, 0.4])
+    col1, col2, col3= st.columns([0.2, 0.2, 0.6])
     with col1:
         st.write(
             """
