@@ -180,13 +180,12 @@ if selected == "Education & Qualifications":
     st.write("09/2018 - 09/2021")
     st.write(
         """
-    - ► Graduated in the top 1% of the as a High Honors student with a CGPA of 3.68/4.00 
-    - ► Worked on an undergraduate research project funded by the Turkish NSF
+    - ► Graduated in the top 1% of the class as a High Honors student with a CGPA of 3.68/4.00 
     - ► Interned at a Molecular Microbiology lab and worked on computational drug discovery
     - ► Co-authored a Tukish NSF-funded undergraduate research project on natural plant-products
     - ► Took part in a 3-month internship in a plant tissue culture and cryopreservation lab
     - ► Participated as an Erasmus+ Exchange Student for 1 semester at the Bydgoszcz University of Science and Technology
-    - ► Published 3 peer-reviewed articles, 2 posters and 1 oral presentation 
+    - ► Co-authored 3 peer-reviewed articles, 2 posters and 1 oral presentation 
     """
     )
 
@@ -290,7 +289,7 @@ if selected == "Awards & Accomplishments":
     st.subheader("Awards & Accomplishments")
     st.write("---")
 
-    st.write("🏆", "European Education and Culture Executive Agency Scholarship - 09/2022")
+    st.write("🏆", "European Education and Culture Executive Agency Scholarship - 2022")
     st.markdown("<div style='text-align: justify;'>Full EACEA scholarship for 2 years to participate in Erasmus Mundus Joint Masters Degree in Leading International Vaccinology Education.</div>", unsafe_allow_html=True)
     st.write('\n')
     st.write('\n')
@@ -382,13 +381,18 @@ if selected == "Publications & Proceedings":
     st.subheader("Posters & Conference Abstracts")
     st.write("---")
 
-    st.markdown("<div style='text-align: justify;'> 👨‍🏫 <u>Abdul Ghafoor, N.</u> & Yildiz, A. A Machine Learning Approach to Predict in Vitro Efficacy of Human Lung Adenocarcinoma Proliferation Inhibitors. (2022) <i>5th International Symposium on Bioinformatics (InSyB2021).</i> Istanbul, Turkey. <br><a href='http://dx.doi.org/10.13140/RG.2.2.21710.38725'>🔗http://dx.doi.org/10.13140/RG.2.2.21710.38725</a> </div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: justify;'> 👨‍🏫 Yildiz, A. <u>Abdul Ghafoor, N.</u> & Tanrıverd, Ö. Re-evaluation of FDA Approved Drugs for Cancer Research. (2022) <i>5th Muğla Multidisciplinary Oncology Research Conference.</i> Remote, Poland. <br><a href='http://dx.doi.org/10.13140/RG.2.2.26908.36480'>🔗http://dx.doi.org/10.13140/RG.2.2.26908.36480</a> </div>", unsafe_allow_html=True)
     st.markdown("<div style='text-align: justify;'><b>Poster presentation</b>.</div>", unsafe_allow_html=True)
     st.write('\n')
-    st.write('\n')
+    st.write('\n') 
 
     st.markdown("<div style='text-align: justify;'> 👨‍🏫 <u>Abdul Ghafoor, N.</u>, Galatali, S., Yeniocak, S., Saman, Z., Kaya, E., & Sarac, N. Cytotoxicity, wound healing & anti-cancer potency of in vitro cultured Thymus cilicicus Boiss. & Bal. ethanolic extracts. (2022) <i>1st International Conference on Experimental Sciences and Biotechnology.</i> Mugla, Turkey. <br><a href='https://www.researchgate.net/publication/356193661_Cytotoxicity_Wound_Healing_Anti-cancer_Potency_of_in_vitro_Cultured_Thymus_cilicicus_Boiss_Bal_Ethanolic_Extracts'>🔗https://www.researchgate.net/publication/356193661</a> </div>", unsafe_allow_html=True)
     st.markdown("<div style='text-align: justify;'><b>Oral presentation</b>.</div>", unsafe_allow_html=True)
+    st.write('\n')
+    st.write('\n')
+
+    st.markdown("<div style='text-align: justify;'> 👨‍🏫 <u>Abdul Ghafoor, N.</u> & Yildiz, A. A Machine Learning Approach to Predict in Vitro Efficacy of Human Lung Adenocarcinoma Proliferation Inhibitors. (2021) <i>5th International Symposium on Bioinformatics (InSyB2021).</i> Istanbul, Turkey. <br><a href='http://dx.doi.org/10.13140/RG.2.2.21710.38725'>🔗http://dx.doi.org/10.13140/RG.2.2.21710.38725</a> </div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: justify;'><b>Poster presentation</b>.</div>", unsafe_allow_html=True)
     st.write('\n')
     st.write('\n')
 
