@@ -381,8 +381,8 @@ if selected == "Publications & Proceedings":
     st.subheader("Posters & Conference Abstracts")
     st.write("---")
 
-    st.markdown("<div style='text-align: justify;'> 👨‍🏫 Yildiz, A. <u>Abdul Ghafoor, N.</u> & Tanrıverd, Ö. Re-evaluation of FDA Approved Drugs for Cancer Research. (2022) <i>5th Muğla Multidisciplinary Oncology Research Conference.</i> Remote, Poland. <br><a href='http://dx.doi.org/10.13140/RG.2.2.26908.36480'>🔗http://dx.doi.org/10.13140/RG.2.2.26908.36480</a> </div>", unsafe_allow_html=True)
-    st.markdown("<div style='text-align: justify;'><b>Poster presentation</b>.</div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: justify;'> 👨‍🏫 Yildiz, A. <u>Abdul Ghafoor, N.</u> & Tanrıverdi, Ö. Re-evaluation of FDA Approved Drugs for Cancer Research. (2022) <i>5th Muğla Multidisciplinary Oncology Research Conference.</i> Remote, Turkey. <br><a href='https://amorecongress2022.com/tr#:~:text=Bildiri%20Kitab%C4%B1n%C4%B1%20%C4%B0ndirmek%20%C4%B0%C3%A7in%20T%C4%B1klay%C4%B1n%C4%B1z'>🔗https://amorecongress2022.com/tr</a> </div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: justify;'><b>Oral presentation</b>.</div>", unsafe_allow_html=True)
     st.write('\n')
     st.write('\n') 
 
