@@ -228,11 +228,11 @@ if selected == "Education & Qualifications":
     with col1:
         st.write(
             """
-                - 🌏   English  
-                - 🧿   Turkish  
-                - 🌙   Arabic 
-                - 📜   Persian
-                - 🥐   French
+                - 🌏   English  Advanced (C2) level 
+                - 🧿   Turkish  Advanced (C2) level
+                - 🌙   Arabic   Native speaker
+                - 📜   Persian  Native speaker
+                - 🥐   French   Currently learning (A1)
             """
         )
     with col2:
