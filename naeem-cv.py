@@ -224,15 +224,30 @@ if selected == "Education & Qualifications":
     st.write('\n')
     st.subheader("Languages")
     st.write("---")
-    st.write(
-        """
-            - 🌏   English  Advanced (C2) level 
-            - 🧿   Turkish  Advanced (C1) level 
-            - 🌙   Arabic   Native speaker
-            - 📜   Persian  Native speaker
-            - 🥐   French   Currently learning (A1)
-        """
-    )
+    col1, col2, col3= st.columns([0.1, 0.2, 0.7])
+    with col1:
+        st.write(
+            """
+                - 🌏   English  
+                - 🧿   Turkish  
+                - 🌙   Arabic 
+                - 📜   Persian
+                - 🥐   French
+            """
+        )
+    with col2:
+        st.write(
+            """
+                - Advanced (C2) level 
+                - Advanced (C1) level 
+                - Native speaker
+                - Native speaker
+                - Currently learning (A1)
+            """
+        )
+    with col3:
+        st.write("")
+
 
     # --- JOB 4
     st.write('\n')
