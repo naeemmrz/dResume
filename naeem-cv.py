@@ -121,7 +121,7 @@ if selected == "Education & Experience":
     st.write(
         """
     🥇 High level proficiency in the following areas:
-    - 🧫 Mammalian cell culture: MTT, qRT-PCR, DNA/RNA extraction, gel electrophoresis, etc.
+    - 🧫 Mammalian cell culture: MTT, qRT-PCR, DNA/RNA extraction, gel electrophoresis, etc
     - 👩‍💻 Machine learning: Python (Scikit-learn, Pandas, streamlit)
     - ⚗️ Cheminformatics: Drug discovery (RDKit, QSAR, Vina, NAMD)
     - 📝 Academic writing: Manuscript/poster drafting (MS, Canva, Mendeley)
@@ -163,7 +163,7 @@ if selected == "Education & Experience":
     st.write('\n')
     st.write('\n')
     st.write("🚧", "**Master of Science (Candidate) | [🔗 Molecular Biology & Genetics](http://www.fenbilimleri.mu.edu.tr/en)**, Mugla S. K. University - TR")
-    st.write("09/2022 - Present")
+    st.write("09/2021 - Present")
     st.write(
         """
     - ► Co-authored a research proposal that earned funding from the Research Support & Funding Office of the university (Investigating drug repurposing for wild MDM2-p53 cancers)
