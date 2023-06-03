@@ -71,7 +71,7 @@ st.write('\n')
 st.write('\n')
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write('\n')
-st.subheader("🏅 Qualifications")
+st.subheader("Qualifications")
 st.write(
     """
 - :white_check_mark: Extensive hands-on experience in mammalian cell culture
