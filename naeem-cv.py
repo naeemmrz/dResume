@@ -71,7 +71,7 @@ st.write('\n')
 st.write('\n')
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write('\n')
-st.subheader("Highlights")
+st.subheader("🏅 Qualifications")
 st.write(
     """
 - :white_check_mark: Extensive hands-on experience in mammalian cell culture
@@ -85,7 +85,7 @@ st.write('\n')
 st.write('\n')
 # --- THE MENU BAR ---
 selected = option_menu(menu_title=None,
-			options=[ "Education & Qualifications", "Awards & Accomplishments", "Publications & Proceedings"],
+			options=[ "Education & Experience", "Awards & Accomplishments", "Publications & Proceedings"],
 			icons=["buildings", "trophy", "newspaper"],
 			menu_icon="cast",
 			default_index=1,
@@ -110,7 +110,7 @@ selected = option_menu(menu_title=None,
 #############################################################################################################################################################
 #############################################################################################################################################################
 
-if selected == "Education & Qualifications":
+if selected == "Education & Experience":
     
     
     st.write('\n')
@@ -121,9 +121,9 @@ if selected == "Education & Qualifications":
     st.write(
         """
     🥇 High level proficiency in the following areas:
-    - 🧫 Mammalian cell culture: MTT, qRT-PCR, DNA/RNA extraction, gel electrophoresis, etc
+    - 🧫 Mammalian cell culture: MTT, qRT-PCR, DNA/RNA extraction, gel electrophoresis, etc.
     - 👩‍💻 Machine learning: Python (Scikit-learn, Pandas, streamlit)
-    - ⚗️ Chemoinformatics: Drug discovery (RDKit, QSAR, Vina, NAMD)
+    - ⚗️ Cheminformatics: Drug discovery (RDKit, QSAR, Vina, NAMD)
     - 📝 Academic writing: Manuscript/poster drafting (MS, Canva, Mendeley)
     """
     )
@@ -133,6 +133,7 @@ if selected == "Education & Qualifications":
     🥈 Foundational knowledge in the following areas:
     - 🔬 Immuno-assays: Western blot, ELISA, IHC, immunoassays
     - 👩‍💻 Programming: R/RStudio (Statistical testing)
+    - 🦾 Deep Learning: Tensor/Keras
     - 📊 Data Visualization: Matplotlib, Seaborn, GraphPad Prism 
 
     """
@@ -147,45 +148,47 @@ if selected == "Education & Qualifications":
     st.write("---")
 
     # --- JOB 1
-    st.write("🚧", "**Erasmus Mundus Joint Masters Degree | [🔗 Leading International Vaccinology Education](https://www.uantwerpen.be/en/about-uantwerp/faculties/fbd/international/international-programmes/vaccinology-master/)** - France, Spain & Belgium")
+    st.write("🚧", "**Erasmus Mundus Joint Master's Degree | [🔗 Leading International Vaccinology Education](https://www.uantwerpen.be/en/about-uantwerp/faculties/fbd/international/international-programmes/vaccinology-master/)** - ES, BE, & FR")
     st.write("09/2023 - Present")
     st.write(
         """
-    - ► A comprehensive and interdisciplinary program delivered jointly by Universidad de Barcelona, Universitat Autònoma de Barcelona, Universiteit Antwerpen, Université de Saint-Etienne & Université Claude Bernard Lyon. 
-    - ► Completed the first courses and practicals in immunology and immunopathology at Universidad de Barcelona & Universitat Autònoma de Barcelona.
-    - ► Currently under taking courses and practicals in infectious disease, advanced data analysis, and clinical drug research.
+    - ► A comprehensive and interdisciplinary joint master’s program delivered jointly by a consortium of European universities including Universidad de Barcelona, Universitat Autònoma de Barcelona, Universiteit Antwerpen, Université de Saint-Etienne & Université Claude Bernard Lyon.
+    - ► Completed the first semester of lectures and practical’s in field of immunology and immunopathology at Universidad de Barcelona & Universitat Autònoma de Barcelona.
+    - ► Currently under taking courses and practical’s in infectious disease, advanced data analysis, and clinical drug research.
+    - ► Participated in a 2 week education program and a hackathon at GlaxoSmithKline (GSK, Wavre)  
     """
     )
 
     # --- JOB 2
     st.write('\n')
     st.write('\n')
-    st.write("🚧", "**Master of Science | [🔗 Molecular Biology & Genetics](http://www.fenbilimleri.mu.edu.tr/en)**, Mugla S. K. Univeristy - Turkey")
+    st.write("🚧", "**Master of Science (Candidate) | [🔗 Molecular Biology & Genetics](http://www.fenbilimleri.mu.edu.tr/en)**, Mugla S. K. University - TR")
     st.write("09/2022 - Present")
     st.write(
         """
-    - ► Conceptualised and composed a research proposal in the field of drug repurposing
-    - ► Performed chemoinformatics and computational drug discovery analysis  
+    - ► Co-authored a research proposal that earned funding from the Research Support & Funding Office of the university (Investigating drug repurposing for wild MDM2-p53 cancers)
+    - ► Co-authored a research proposal that earned funding from the Scientific and Technological Research Council of Turkey (ABacAPP, ML platform for antibiotic screening)
+    - ► Performed cheminformatics and computational drug discovery analysis
     - ► Independently worked in cell culture laboratory, routinely performed cytotoxicity, gene expression, and molecular biology assays
     - ► Supervised 2 undergraduate student's research project
-    - ► Responsible for budget management and reporting of the research grant
-    - ► CGPA 3.91/4.00 & thesis defence is scheduled at the end of summer 2023
+    - ► CGPA 3.91/4.00 & thesis defense is scheduled at the end of summer 2023
+
     """
     )
 
     # --- JOB 3
     st.write('\n')
     st.write('\n')
-    st.write("🚧", "**Bachelor of Science | [🔗 Molecular Biology & Genetics](https://mbg.mu.edu.tr/en), Mugla S. K. Univeristy - Turkey**")
+    st.write("🚧", "**Bachelor of Science | [🔗 Molecular Biology & Genetics](https://mbg.mu.edu.tr/en), Mugla S. K. Univeristy - TR**")
     st.write("09/2018 - 09/2021")
     st.write(
         """
-    - ► Graduated in the top 1% of the class as a High Honors student with a CGPA of 3.68/4.00 
-    - ► Interned at a Molecular Microbiology lab and worked on computational drug discovery
-    - ► Co-authored a Tukish NSF-funded undergraduate research project on natural plant-products
-    - ► Took part in a 3-month internship in a plant tissue culture and cryopreservation lab
-    - ► Participated as an Erasmus+ Exchange Student for 1 semester at the Bydgoszcz University of Science and Technology
-    - ► Co-authored 3 peer-reviewed articles, 2 posters and 1 oral presentation 
+    - ► Graduated in the top 1% of the class as a High Honors student with a CGPA of 3.68/4.00
+    - ► Co-authored an undergraduate research project on natural plant-products that was funded by the Scientific and Technological Research Council of Turkey
+    - ► Participated as an Erasmus+ Exchange Student for 1 semester at the Bydgoszcz University of Science and Technology 
+    - ► Completed an internships in a cell biology laboratory (10 months), computational drug discovery (10 months), and plant tissue culture (3 months).
+    - ► Co-authored 3 peer-reviewed articles, 2 posters and 1 oral presentation
+
     """
     )
 
@@ -200,8 +203,8 @@ if selected == "Education & Qualifications":
     st.write(
         """
             🛡️ 2023   
-            - 🔰    ICH-GCP Antwerp University Hospital Certification
-            - 🔰    GlaxoSmithKline Hackathon
+            - 🔰    ICH-GCP E6R2 Antwerp University Hospital Certification
+            - 🔰    GlaxoSmithKline Hackathon (Wavre)
             \n
             🛡️ 2022 
             - 🔰    Academic IELTS (C2 Proficient)
@@ -224,31 +227,15 @@ if selected == "Education & Qualifications":
     st.write('\n')
     st.subheader("Languages")
     st.write("---")
-    col1, col2, col3, col4= st.columns([0.2, 0.35, 0.2, 0.25])
-    with col1:
-        st.write(
-            """
-                - 🌏   English 
-                - 🧿   Turkish
-                - 🌙   Arabic
-                - 📜   Persian
-                - 🥐   French
-            """
-        )
-    with col2:
-        st.write(
-            """
-                - Advanced (C2) level 
-                - Advanced (C1) level 
-                - Native speaker
-                - Native speaker
-                - Currently learning (A1)
-            """
-        )
-    with col3:
-        st.write("")
-    with col4:
-        st.write("")
+    st.write(
+        """
+            - 🌏 English - Advanced (C2) level
+            - 🧿 Turkish - Advanced (C1) level
+            - 🌙 Arabic  - Native speaker
+            - 📜 Persian - Native speaker
+            - 🥐 French  - Currently learning (A1)
+        """
+    )
 
 
     # --- JOB 4
@@ -262,10 +249,11 @@ if selected == "Education & Qualifications":
     st.write("2016 - 2023")
     st.write(
         """
-    - ► Worked in catering and waitressing at different locations on & off during weekends throughout my undergraduate 
-    - ► Worked in a game arcade, cinema reception, bowling reception, etc during undergraduate summer breaks
-    - ► Worked as an assistant for the logistics team in a Carpet company after high school for 9 months  
-    """
+            - ► Worked in catering and waitressing at different locations on & off during weekends throughout my undergraduate
+            - ► Worked in a game arcade, a cinema reception, a bowling reception, etc. during undergraduate summer breaks
+            - ► Worked as an assistant for the logistics team in a Carpet company after high school for 9 months
+
+        """ 
     )
 
     
@@ -292,7 +280,7 @@ if selected == "Awards & Accomplishments":
     st.write("---")
 
     st.write("🏆", "European Education and Culture Executive Agency Scholarship - 2022")
-    st.markdown("<div style='text-align: justify;'>Full EACEA scholarship for 2 years to participate in Erasmus Mundus Joint Masters Degree in Leading International Vaccinology Education.</div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: justify;'>Full EACEA scholarship for 2 years to participate in Erasmus Mundus Joint Master's Degree in Leading International Vaccinology Education.</div>", unsafe_allow_html=True)
     st.write('\n')
     st.write('\n')
     st.write('\n')
