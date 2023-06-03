@@ -186,7 +186,7 @@ if selected == "Education & Experience":
     - ► Graduated in the top 1% of the class as a High Honors student with a CGPA of 3.68/4.00
     - ► Co-authored an undergraduate research project on natural plant-products that was funded by the Scientific and Technological Research Council of Turkey
     - ► Participated as an Erasmus+ Exchange Student for 1 semester at the Bydgoszcz University of Science and Technology 
-    - ► Completed an internships in a cell biology laboratory (10 months), computational drug discovery (10 months), and plant tissue culture (3 months).
+    - ► Completed an internships in a cell biology, computational drug discovery, bioinformatics, and plant tissue culture laboratories.
     - ► Co-authored 3 peer-reviewed articles, 2 posters and 1 oral presentation
 
     """
