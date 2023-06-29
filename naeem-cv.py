@@ -148,7 +148,7 @@ if selected == "Education & Experience":
     st.write("---")
 
     # --- JOB 1
-    st.write("🚧", "**Erasmus Mundus Joint Master's Degree | [🔗 Leading International Vaccinology Education](https://www.uantwerpen.be/en/about-uantwerp/faculties/fbd/international/international-programmes/vaccinology-master/)** - ES, BE, & FR")
+    st.write("🚧", "**Erasmus Mundus Joint Master's Degree | [🔗 Leading International Vaccinology Education](https://masterlive-vaccinology.eu/)** - ES, BE, & FR")
     st.write("09/2023 - Present")
     st.write(
         """
